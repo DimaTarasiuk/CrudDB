@@ -1,4 +1,7 @@
 package org.example.repository;
 
-public interface SkillRepository {
+import org.example.model.Skill;
+
+public interface SkillRepository extends GenericRepository <Skill, Long> {
+
 }

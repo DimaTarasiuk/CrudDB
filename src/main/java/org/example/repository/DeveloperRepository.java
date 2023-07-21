@@ -1,5 +1,9 @@
 package org.example.repository;
 
-public interface DeveloperRepository {
+import org.example.model.Developer;
+
+import java.util.List;
+
+public interface DeveloperRepository extends GenericRepository <Developer, Long>{
 
 }
