@@ -37,5 +37,3 @@ build/
 ### Mac OS ###
 .DS_Store
 
-/src/main/resources/changelog.xml
-/src/main/resources/liquibase.properties
