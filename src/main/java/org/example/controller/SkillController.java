@@ -1,10 +1,13 @@
 package org.example.controller;
 
 import org.example.model.Skill;
-import org.example.repository.SkillRepository;
 
 public class SkillController {
-    private final SkillRepository skillRepository = new
+
+    static final String JDBC_DRIVER =  "com.mysql.jdbc.Driver";
+    static final String DATABASE_URL = "jdbc:mysql://localhost:3306/";
+
+
     public void updateSkill(){
 
     }

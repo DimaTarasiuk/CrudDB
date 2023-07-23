@@ -4,8 +4,8 @@ import java.util.List;
 
 public interface GenericRepository <T, ID>{
     T getByID(ID id);
-    List<T> getAll();
+    List<T> geyAll();
     T save(T t);
-    T update(T t);
+    T updateByID (ID id);
     void deleteByID(ID id);
 }
