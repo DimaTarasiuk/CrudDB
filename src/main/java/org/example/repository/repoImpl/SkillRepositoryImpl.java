@@ -17,12 +17,18 @@ public class SkillRepositoryImpl {
         return skillRepository.getAll();
     }
 
-    public void addSkill(){
-        //TODO
+    public void createSkill(Skill newSkill){
+        List<Skill> skills = skillRepository.getAll();
+        skills.add(newSkill);
+        System.out.printf(newSkill + " :added to the list");
     }
 
-    public Skill updateSkill(Skill skill){
-       return null;
-       //todo
+    public Skill updateSkill(Long id, String name){
+
+       Skill skill1 = new Skill();
+
+       skill1.setId(id);
+       skill1.setName(name);
+       return skill1;
     }
 }

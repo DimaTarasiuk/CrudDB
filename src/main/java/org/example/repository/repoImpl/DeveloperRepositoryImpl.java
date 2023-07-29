@@ -1,6 +1,7 @@
 package org.example.repository.repoImpl;
 
 import org.example.model.Developer;
+import org.example.model.Specialty;
 import org.example.repository.DeveloperRepository;
 import org.example.repository.GenericRepository;
 
@@ -17,8 +18,15 @@ public class DeveloperRepositoryImpl {
         return developerRepository.getAll();
     }
 
-    public Developer updateDeveloper(){
-        return null;
+    public Developer updateDeveloper(int id, String name, String sourName, Specialty specialty){
+
+        Developer developer1 = new Developer();
+
+        developer1.setId(id);
+        developer1.setFirstName(name);
+        developer1.setLastName(sourName);
+        developer1.setSpecialty(specialty);
+        return developer1;
     }
 
 
