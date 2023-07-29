@@ -17,6 +17,10 @@ public class DeveloperRepositoryImpl {
         return developerRepository.getAll();
     }
 
+    public Developer updateDeveloper(){
+        return null;
+    }
+
 
 
 }
