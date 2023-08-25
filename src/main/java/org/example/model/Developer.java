@@ -3,11 +3,10 @@ package org.example.model;
 import java.util.List;
 
 public class Developer {
-    private int id;
+    private Integer id;
     private String firstName;
     private String lastName;
     private List<Skill> skills;
-
     private Specialty specialty;
 
     public Specialty getSpecialty() {

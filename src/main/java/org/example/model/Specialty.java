@@ -1,15 +1,24 @@
 package org.example.model;
 
 public class Specialty {
-    private String specialty;
+    private Integer id;
+    private String name;
 
-    public String getSpecialty(){
-        return specialty;
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName(){
+        return name;
     }
 
 
-    public void setSpecialty(String specialty){
-        this.specialty = specialty;
+    public void setName(String name){
+        this.name = name;
     }
 
 }

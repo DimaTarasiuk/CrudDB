@@ -1,9 +1,8 @@
-package org.example.repository.repoImpl;
+package org.example.repository.jdbc;
 
 import org.example.model.Developer;
 import org.example.model.Specialty;
 import org.example.repository.DeveloperRepository;
-import org.example.repository.GenericRepository;
 
 import java.util.List;
 

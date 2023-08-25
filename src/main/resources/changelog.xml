@@ -5,7 +5,7 @@
                                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
     <changeSet id="1" author="dtarasiuk">
-        <sqlFile path="changes.sql" relativeToChangelogFile="true"/>
+        <sqlFile path="create-tables.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
 </databaseChangeLog>
